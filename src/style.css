@@ -4,6 +4,7 @@
   --font-sans:
     "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue,
     Helvetica, Arial, sans-serif;
+  --logo-bg-theme: #1b1913;
 }
 
 * {
@@ -88,8 +89,13 @@ nav {
 }
 
 main {
+  width: 100%;
+}
+
+main section {
   display: flex;
   justify-content: center;
+  margin-bottom: 56px;
 }
 
 .hero-section {
@@ -139,4 +145,45 @@ main {
 
 .image-product img {
   width: 100%;
+}
+
+.trustedby {
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  padding: 0px 20px 33.6px;
+}
+
+.container h2 {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.company-logo {
+  display: grid;
+  height: 6.25rem;
+  width: auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 7.5px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--logo-bg-theme);
+}
+
+.company-logo div img {
+  height: 2.5rem;
 }
