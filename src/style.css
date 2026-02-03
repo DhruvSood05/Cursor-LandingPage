@@ -1,3 +1,11 @@
+:root {
+  --bg-theme: #14120b;
+  --btn-theme: #edecec;
+  --font-sans:
+    "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,26 +13,36 @@
 }
 
 body {
-  background-color: #14120b;
+  background-color: var(--bg-theme);
   color: #edecec;
-  font-family:
-    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--font-sans);
+}
+
+header {
+  background-color: var(--bg-theme);
+  width: 1300px;
+  margin: 0px auto;
+  position: relative;
 }
 
 nav {
   display: grid;
+  justify-content: center;
   grid-template-columns: auto 1fr auto;
   height: 52px;
-  margin: 0, 0;
   padding: 10px 20px;
-  width: full;
+  width: 100%;
   align-items: center;
 }
 
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+  font-size: 20px;
+  width: 95.37px;
+  margin-left: 0;
 }
 
 .links ul {
@@ -32,8 +50,33 @@ nav {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  list-style: none;
 }
 
 .links ul li a {
   text-decoration: none;
+  font-size: 14px;
+  color: var(--btn-theme);
+  display: inline-flex;
+  cursor: pointer;
+  padding: 5px 16px;
+}
+.links ul li {
+  text-decoration: none;
+}
+
+.start-btn button {
+  color: var(--btn-theme);
+  background-color: var(--bg-theme);
+  font-family: var(--font-sans);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  display: inline-flex;
+  font-size: 14px;
+  padding: 5.6px 10.5px 5.88px;
+  border: 1px solid var(--btn-theme);
+  font-weight: 400;
+  border-radius: 3.40282e38px;
 }
