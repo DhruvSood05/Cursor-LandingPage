@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: var(--bg-theme);
-  width: 1300px;
+  width: 75%;
   margin: 0px auto;
   position: relative;
 }
@@ -76,7 +76,13 @@ nav {
   display: inline-flex;
   font-size: 14px;
   padding: 5.6px 10.5px 5.88px;
-  border: 1px solid var(--btn-theme);
+  border: 0.5px solid var(--btn-theme);
   font-weight: 400;
   border-radius: 3.40282e38px;
+}
+
+#download-btn {
+  background-color: var(--btn-theme);
+  color: var(--bg-theme);
+  margin-left: 5px;
 }
