@@ -130,7 +130,7 @@ main section {
   font-weight: 500;
 }
 
-.CTA button img {
+.CTA button span {
   width: 20px;
   margin-left: 5px;
   border-radius: 5px;
