@@ -113,6 +113,7 @@ nav {
   background-color: var(--btn-theme);
   color: var(--bg-theme);
   margin-left: 5px;
+  font-weight: 400;
 }
 
 main {
@@ -138,15 +139,15 @@ main section {
 
 .main-headline h1 {
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.25;
-  letter-spacing: -0.055rem;
+  letter-spacing: 0.005rem;
 }
 
 .CTA button {
   background-color: var(--btn-theme);
   color: var(--bg-theme);
-  border: 1px solid var(--btn-theme);
+  border: 0.5px solid var(--btn-theme);
   cursor: pointer;
   padding: 10px 21.6px 10px;
   border-radius: 3.40282e38px;
@@ -346,4 +347,68 @@ main section {
 
 .role-name span {
   opacity: 60%;
+}
+
+.use-cases {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 67.2px 20px;
+}
+
+.use-case-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+
+.use-case-heading {
+  margin-top: 44.8px;
+  margin-bottom: 22.4px;
+}
+
+.use-case-heading h2 {
+  font-size: 1.625rem;
+}
+
+.use-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-card p span {
+  opacity: 60%;
+}
+
+.card-btn {
+  margin-top: 15px;
+}
+
+.card-btn a {
+  text-decoration: none;
+  color: #f54e00;
+}
+
+.case-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15.9px;
+  max-width: 100%;
+  background-color: var(--logo-bg-theme);
+  border-radius: 4px;
+}
+
+.video {
+  padding-top: 17.5px;
+}
+
+.video video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  min-width: 0;
+  border-radius: 4px;
 }
