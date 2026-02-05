@@ -462,3 +462,41 @@ main section {
 .changelog-info {
   margin-top: 14px;
 }
+
+.about-section {
+  padding: 67.2px 20px;
+}
+
+.about {
+  display: flex;
+  width: 75%;
+  background-color: var(--logo-bg-theme);
+  border-radius: 4px;
+  padding: 17.5px;
+  align-items: center;
+}
+
+.about-text h3 {
+  font-size: 1.375rem;
+  letter-spacing: -0.005rem;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.about-text {
+  padding-right: 80px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-img img {
+  min-width: 0;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.about-info-btn {
+  margin-top: 22.5px;
+}
