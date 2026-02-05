@@ -426,3 +426,39 @@ main section {
   display: block;
   border-radius: 4px;
 }
+
+.changelog {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 67.2px 20px;
+}
+
+.changelog-heading {
+  margin-bottom: 22.4px;
+}
+
+.changelog-heading h2 {
+  font-size: 1.635rem;
+}
+
+.changelog-cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.chagelog-card-1 {
+  padding: 15.9px 17.5px 20px;
+  border-radius: 4px;
+  background-color: var(--logo-bg-theme);
+}
+
+.changelog-date p {
+  opacity: 60%;
+}
+
+.changelog-info {
+  margin-top: 14px;
+}
