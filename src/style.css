@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: CursorGothic;
-  src: url(../media/CursorGothic_Regular-s.p.a361088d.woff2) format("woff2");
+  src: url(/fonts/CursorGothic_Regular-s.p.a361088d.woff2) format("woff2");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: CursorGothic;
-  src: url(../media/CursorGothic_Italic-s.p.00bb2606.woff2) format("woff2");
+  src: url(/fonts/CursorGothic_Italic-s.p.00bb2606.woff2) format("woff2");
   font-display: swap;
   font-weight: 400;
   font-style: italic;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: CursorGothic;
-  src: url(../media/CursorGothic_Bold-s.p.95169710.woff2) format("woff2");
+  src: url(/fonts/CursorGothic_Bold-s.p.95169710.woff2) format("woff2");
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: CursorGothic;
-  src: url(../media/CursorGothic_BoldItalic-s.p.036859cb.woff2) format("woff2");
+  src: url(/fonts/CursorGothic_BoldItalic-s.p.036859cb.woff2) format("woff2");
   font-display: swap;
   font-weight: 700;
   font-style: italic;
