@@ -120,7 +120,7 @@ main section {
   color: var(--bg-theme);
   border: 1px solid var(--btn-theme);
   cursor: pointer;
-  padding: 12px 21.6px 12px;
+  padding: 10px 21.6px 10px;
   border-radius: 3.40282e38px;
   display: inline-flex;
   justify-content: center;
@@ -131,8 +131,9 @@ main section {
 }
 
 .CTA button span {
-  width: 20px;
-  margin-left: 5px;
+  width: 10px;
+
+  margin-left: 3px;
   border-radius: 5px;
 }
 
@@ -246,4 +247,75 @@ main section {
   background: none;
   border: none;
   outline: none;
+}
+
+.testimonial {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 67.2px 20px;
+}
+
+.testimonial-cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.testimonial-heading {
+  margin-bottom: 56px;
+}
+
+.testimonial-heading h1 {
+  font-size: 40px;
+  letter-spacing: -0.02rem;
+}
+
+.font-class {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  letter-spacing: 0.005rem;
+  line-height: 1.5;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  padding: 15.9px 17.5px 17.5px;
+  background-color: var(--logo-bg-theme);
+  color: var(--btn-theme);
+  justify-content: space-between;
+}
+
+.card-content {
+  display: block;
+  font-size: 17px;
+}
+
+.cardirole {
+  display: flex;
+  align-items: center;
+  margin-top: 44.8px;
+  justify-content: flex-start;
+}
+
+.cardirole img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.role-name {
+  font-size: 14px;
+}
+
+.role-name span {
+  opacity: 60%;
 }
