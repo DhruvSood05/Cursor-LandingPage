@@ -6,31 +6,34 @@
     Helvetica, Arial, sans-serif;
   --logo-bg-theme: #1b1913;
 }
-
 @font-face {
-  font-family: "CursorGothic";
-  src: url("/fonts/CursorGothic-Regular.woff2") format("woff2");
+  font-family: CursorGothic;
+  src: url(../media/CursorGothic_Regular-s.p.a361088d.woff2) format("woff2");
+  font-display: swap;
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CursorGothic";
-  src: url("/fonts/CursorGothic-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CursorGothic";
-  src: url("/fonts/CursorGothic-Italic.woff2") format("woff2");
+  font-family: CursorGothic;
+  src: url(../media/CursorGothic_Italic-s.p.00bb2606.woff2) format("woff2");
+  font-display: swap;
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "CursorGothic";
-  src: url("/fonts/CursorGothic-BoldItalic.woff2") format("woff2");
+  font-family: CursorGothic;
+  src: url(../media/CursorGothic_Bold-s.p.95169710.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CursorGothic;
+  src: url(../media/CursorGothic_BoldItalic-s.p.036859cb.woff2) format("woff2");
+  font-display: swap;
   font-weight: 700;
   font-style: italic;
 }
@@ -370,6 +373,9 @@ main section {
 
 .use-case-heading h2 {
   font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.0125rem;
 }
 
 .use-card-content {
@@ -410,5 +416,13 @@ main section {
   height: auto;
   display: block;
   min-width: 0;
+  border-radius: 4px;
+}
+
+.video img {
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
   border-radius: 4px;
 }
