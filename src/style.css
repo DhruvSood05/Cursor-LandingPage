@@ -52,13 +52,11 @@ body {
 
 header {
   background-color: var(--bg-theme);
-  width: 100%;
+  width: 75%;
   margin: 0px auto;
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
-  justify-content: center;
 }
 
 nav {
@@ -67,7 +65,7 @@ nav {
   grid-template-columns: auto 1fr auto;
   height: 52px;
   padding: 10px 20px;
-  width: 75%;
+  width: 100%;
   align-items: center;
 }
 
