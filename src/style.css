@@ -83,7 +83,7 @@ nav {
 }
 
 .links {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .links ul {
@@ -92,9 +92,6 @@ nav {
   align-items: center;
   text-decoration: none;
   list-style: none;
-}
-
-.links ul li {
 }
 
 .links ul li a {
@@ -613,7 +610,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 40px;
+  margin: 0px 50px;
 }
 
 .footer-certified-1 {
@@ -653,4 +650,16 @@ footer {
 .footer-certified-1 p a {
   text-decoration: none;
   color: var(--btn-theme);
+}
+
+.footer-language button {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  padding: 3px 10.6px 5px;
+  background-color: #26241e;
+  border: 0px solid var(--btn-theme);
+  color: var(--btn-theme);
+  border-radius: 3.40282e38px;
 }
