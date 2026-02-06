@@ -522,11 +522,13 @@ main section {
   height: auto;
   padding: 89.6px 20px;
   margin-top: 67.2px;
+  position: relative;
 }
 
 .second-cta-heading {
   padding-right: 200px;
   position: sticky;
+  align-self: flex-start;
   top: 64px;
 }
 
